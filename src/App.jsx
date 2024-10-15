@@ -1,15 +1,13 @@
-import Counter from "./counter.jsx"
-import './App.css'
-
+import Counter from "./counter.jsx";
+import "./App.css";
+import LikeButton from "./LikeButton.jsx";
 function App() {
-  
-
   return (
     <>
-     <h3>Represnting state</h3>
-     <Counter/>
+    <h3>like Button</h3>
+      <LikeButton />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
